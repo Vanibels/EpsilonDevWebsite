@@ -6,4 +6,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-// This script adds functionality to the "Retour" button, allowing users to navigate back to the homepage when clicked
+document.addEventListener('DOMContentLoaded', function() {
+    const returnButton = document.querySelector('.Indev');
+    if (returnButton) {
+        returnButton.addEventListener('click', function() {
+            window.location.href = '/page/InDev.html'; 
+        });
+    }
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const returnButton = document.querySelector('.ViewProject');
+    if (returnButton) {
+        returnButton.addEventListener('click', function() {
+            window.location.href = '/page/ViewProject.html'; 
+        });
+    }
+});
