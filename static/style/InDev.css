@@ -1,0 +1,47 @@
+body{
+    background-image: url('../assets/app-background.jpg');
+    background-size: cover; 
+    font-family: 'Courier New', Courier, monospace;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    box-shadow: 0ch 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: rgba(36, 35, 35, 0.8);
+    padding: 20px;  
+}
+.box h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.box p {
+    color: #dfdfdf;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+button.return {
+    background-color: #222; 
+    color: #fff; 
+    border: 3.5px solid #00ffcc;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+    font-family: monospace; 
+    transition: color 0.3s, border-color 0.3s;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+button.return:hover {
+    color: #00ffcc;
+}
